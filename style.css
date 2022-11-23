@@ -1,0 +1,144 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ .container{
+    height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+   align-items: center;
+
+   justify-content: center;
+
+   background-color: steelblue;
+
+
+
+
+}
+
+.contact-form{
+
+    background-color: whitesmoke;
+}
+
+.contact-form{
+
+   width:500px;
+
+   height: 600px;
+   
+   border: 1px solid black;
+
+   margin: 50px;
+
+   padding: 30px;
+
+   box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.3);
+
+}
+
+#Name,#Email,#TelephoneNumber,#Address,#Message{
+        
+    width: 80%;
+
+}
+
+ #name-section,#email-section,#tele-section,#address-section,#message-section{
+
+    display: flex;
+
+    justify-content: space-between;
+}  
+
+
+
+
+#btn{
+
+
+    background-color: rgb(240, 236, 236);
+    text-align: center;
+
+    padding:10px 20px;
+    
+    
+
+    border: 1px solid black;
+
+    border-radius: 3px;
+
+    transition-property: all;
+
+    transition-duration: 0.5s;
+
+
+
+}
+
+
+
+#btn:hover{
+    background-color: gray;
+
+    height: 50px;
+    width: 90px;
+}
+
+
+
+#butt{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 570px) {
+    
+    
+
+    .contact-form{
+
+       
+        height: 100vh;
+    
+
+        display:grid;
+        
+        border: none;
+   
+      
+
+    }
+
+
+    
+
+    #name-section,#email-section,#tele-section,#address-section,#message-section,#butt{
+
+        display :flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: center;
+    }
+   
+
+   #lname , #lemail,#lnumber,#laddress,#lmessage{
+      
+      padding-bottom: 20px;
+      
+   }
+    
+
+
+ }
